@@ -5,7 +5,7 @@ Feature: Login page
         
     Scenario: Successful Login
         When A user enters the username "standard_user", the password "secret_sauce", and clicks on the login button
-        Then the url will contains the inventory subdirectory
+        Then the url will contains the "inventory" subdirectory
 
     Scenario: Blocked Login
         When A user enters the username "locked_out_user", the password "secret_sauce", and clicks on the login button
