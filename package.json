@@ -1,4 +1,12 @@
 {
+  "name": "cypress-auto",
+  "version": "1.0.0",
+  "description": "Cypress BDD Automation by Chris Copeland",
+  "main": "index.js",
+  "scripts": {
+    "scripts": "cypress run",
+    "test": "npm run scripts || npm run posttest"
+  },
   "devDependencies": {
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
     "cypress": "^13.2.0",
@@ -7,6 +15,7 @@
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
     "@shelex/cypress-allure-plugin": "^2.40.0",
+    "cypress-mochawesome-reporter": "^3.6.0",
     "multiple-cucumber-html-reporter": "^3.5.0"
   }
 }

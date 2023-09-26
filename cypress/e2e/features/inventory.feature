@@ -1,4 +1,4 @@
-Feature: Login page
+Feature: Inventory page
 
     Background:
         Given A user successfully logins in to saucelabs
