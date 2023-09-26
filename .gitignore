@@ -46,3 +46,4 @@ Thumbs.db
 
 # Cucumber Report
 reports
+package-lock.json
