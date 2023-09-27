@@ -1,6 +1,11 @@
 # Cypress Saucedemo tests
 
-### 💻 Topics
+### Description
+This project is to showcase my skills with Cypress along with BDD implementation. The website used for this test suite is https://www.saucedemo.com/. In this project I utilize the Page Object Model for my project structure. It makes it easier to maintain, read and resuse code.
+
+This project also has its own reporting. If you run `npm run scripts` a html report will be produce after the tests have been completed.
+
+### Topics
 
 Integrated with:
 
@@ -11,6 +16,15 @@ Integrated with:
 - [x] https://www.npmjs.com/package/cypress-mochawesome-reporter
 
 
-- ## 💻 Pre-requisites
+## Pre-requisites
 
 1. Node JS
+
+## Installation Steps
+
+1. clone the project
+2. `npm i` to install dependencies
+
+## Run the project
+- `npx cypress open` for cypress console
+- `npm run scripts` for terminal execution
