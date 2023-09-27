@@ -8,7 +8,14 @@ jobs:
        uses: actions/checkout@v2
  
      - name: Run Cypress Test
-       uses: cypress-io/github-action@v4
+       uses: cypress-io/github-action@v5
        with:
          command: npm run scripts
          browser: chrome
+
+     - uses: actions/upload-artifact@v3
+       if: always()
+       with:
+         name: cypress-reports
+         path: cypress/reports
+      
